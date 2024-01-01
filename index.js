@@ -4,7 +4,7 @@ connectToMongo();
 const cors = require("cors");
 
 const corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://notebook-dusky.vercel.app"
 };
 
 const app = express()
